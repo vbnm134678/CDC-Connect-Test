@@ -1,0 +1,13 @@
+use source_db;
+CREATE TABLE student(
+id int,
+name char(4),
+age int
+);
+
+-----------
+INSERT INTO `student` values (1, 'abse', '15');
+INSERT INTO `student` values (2, 'bise', '25');
+INSERT INTO `student` values (3, 'cont', '18');
+INSERT INTO `student` values (4, 'done', '30');
+INSERT INTO `student` values (5, 'elis', '22');
